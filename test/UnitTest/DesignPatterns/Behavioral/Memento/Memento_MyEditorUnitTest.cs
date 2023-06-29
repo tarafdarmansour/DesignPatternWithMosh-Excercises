@@ -15,7 +15,6 @@ namespace UnitTest.DesignPatterns.Behavioral.Memento
             myEditor.SetContent(secondValue);
             myEditor.Undo();
             myEditor.GetContent().ShouldBeEquivalentTo(firstValue);
-
         }
     }
 }
