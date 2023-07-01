@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Memento\Memento.csproj" />
     <ProjectReference Include="..\..\src\Polymorphism\Polymorphism.csproj" />
+    <ProjectReference Include="..\..\src\State\State.csproj" />
   </ItemGroup>
 
 </Project>
