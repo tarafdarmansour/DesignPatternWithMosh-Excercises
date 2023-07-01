@@ -1,4 +1,4 @@
-﻿namespace Memento
+﻿namespace Memento.Me
 {
     public class MyEditor
     {
@@ -21,4 +21,4 @@
             _index--;
         }
     }
-} 
+}

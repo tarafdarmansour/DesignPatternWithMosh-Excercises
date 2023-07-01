@@ -1,4 +1,4 @@
-﻿namespace Memento
+﻿namespace Memento.Lesson
 {
     public class Editor
     {

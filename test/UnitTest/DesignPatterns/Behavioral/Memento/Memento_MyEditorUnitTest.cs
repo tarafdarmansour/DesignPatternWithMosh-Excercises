@@ -1,4 +1,4 @@
-﻿using Memento;
+﻿using Memento.Me;
 using Shouldly;
 
 namespace UnitTest.DesignPatterns.Behavioral.Memento
@@ -8,9 +8,9 @@ namespace UnitTest.DesignPatterns.Behavioral.Memento
         [Fact]
         public void GivenMyEditor_WhenISetContent2Times_AndUndo_ThenItShouldUndoText()
         {
-            MyEditor myEditor = new MyEditor();
-            string firstValue = "First Step";
-            string secondValue = "Second Step";
+            var myEditor = new MyEditor();
+            var firstValue = "First Step";
+            var secondValue = "Second Step";
             myEditor.SetContent(firstValue);
             myEditor.SetContent(secondValue);
             myEditor.Undo();

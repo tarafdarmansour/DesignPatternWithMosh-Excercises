@@ -1,4 +1,4 @@
-﻿using Memento;
+﻿using Memento.Lesson;
 using Shouldly;
 
 namespace UnitTest.DesignPatterns.Behavioral.Memento
@@ -8,10 +8,10 @@ namespace UnitTest.DesignPatterns.Behavioral.Memento
         [Fact]
         public void GivenEditor_WhenISetContent2Times_AndRestoreOneTime_ThenItShouldUndoText()
         {
-            Editor editor = new Editor();
-            History history = new History();
-            string firstValue = "First Step";
-            string secondValue = "Second Step";
+            var editor = new Editor();
+            var history = new History();
+            var firstValue = "First Step";
+            var secondValue = "Second Step";
             editor.SetContent(firstValue);
             history.Push(editor.CreateState());
             editor.SetContent(secondValue);
@@ -24,10 +24,10 @@ namespace UnitTest.DesignPatterns.Behavioral.Memento
         [Fact]
         public void GivenEditor_WhenISetContent2Times_AndNotRestore_ThenItShouldBeLastText()
         {
-            Editor editor = new Editor();
-            History history = new History();
-            string firstValue = "First Step";
-            string secondValue = "Second Step";
+            var editor = new Editor();
+            var history = new History();
+            var firstValue = "First Step";
+            var secondValue = "Second Step";
             editor.SetContent(firstValue);
             history.Push(editor.CreateState());
             editor.SetContent(secondValue);
