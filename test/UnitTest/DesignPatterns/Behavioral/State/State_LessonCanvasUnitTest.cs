@@ -1,7 +1,7 @@
 ﻿using Shouldly;
 using State.Lesson;
 
-namespace UnitTest.DesignPatterns.Behavioral.Memento;
+namespace UnitTest.DesignPatterns.Behavioral.State;
 
 public class State_LessonCanvasUnitTest
 {

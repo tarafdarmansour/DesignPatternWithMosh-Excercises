@@ -1,7 +1,7 @@
 ﻿using Iterator.Me;
 using Shouldly;
 
-namespace UnitTest.DesignPatterns.Behavioral.Memento;
+namespace UnitTest.DesignPatterns.Behavioral.Iterator;
 
 public class Iterator_MyShapeCollectionHisoryUnitTest
 {
