@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Command\Command.csproj" />
     <ProjectReference Include="..\..\src\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\..\src\Memento\Memento.csproj" />
     <ProjectReference Include="..\..\src\Polymorphism\Polymorphism.csproj" />
